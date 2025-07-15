@@ -1,0 +1,20 @@
+{"timestamp":"2025-07-15T02:39:11.956729","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-15T02:39:11.957917","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/DAG102.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-15T02:39:12.071068Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:39:12.072128Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:39:12.072914Z","level":"info","event":"Current task name:transform_movies","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:39:12.073396Z","level":"info","event":"Dag name:movie_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:39:12.256831","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-15T02:39:12.283131Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:39:12.283707Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:39:12.284287Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_movies>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:55:22.423370","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-15T02:55:22.424145","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/DAG102.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-15T02:55:22.471691Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:55:22.472404Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:55:22.472973Z","level":"info","event":"Current task name:transform_movies","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:55:22.473470Z","level":"info","event":"Dag name:movie_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:55:22.656923","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-15T02:55:22.672969Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:55:22.673395Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-15T02:55:22.673861Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_movies>","chan":"stdout","logger":"task"}
