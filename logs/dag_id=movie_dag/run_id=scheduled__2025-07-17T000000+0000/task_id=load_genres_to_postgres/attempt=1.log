@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-17T13:49:32.750141","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-17T13:49:32.750966","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/DAG102.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T13:49:32.817648Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T13:49:32.818177Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T13:49:32.819070Z","level":"info","event":"Current task name:load_genres_to_***","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T13:49:32.819614Z","level":"info","event":"Dag name:movie_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T13:49:32.818267","level":"info","event":"Connection Retrieved '***_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-17T13:49:33.059249","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-17T13:49:33.083423Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T13:49:33.083956Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T13:49:33.084472Z","level":"info","event":"Task operator:<Task(PythonOperator): load_genres_to_***>","chan":"stdout","logger":"task"}
